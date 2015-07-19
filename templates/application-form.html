@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ubermelon Application</title>
+    <link rel="stylesheet" href="../static/css/styles.css" >
+</head>
+<body>
+
+	<h1>Tell us about yourself!</h1>
+
+	<p>Thanks for applying! Ubermelon is the best company to work for - we're excited you've chosen to apply!</p>
+
+	<form action="/application" method="post">
+
+        <label>First name
+        	<input type="text" name="firstname" required>
+        </label><br>
+
+        <label id="lastname">Last name
+        	<input type="text" name="lastname" required>
+        </label><br>
+
+        <label>Salary requirement
+        	<input type="number" name="salary" required>
+        </label><br>
+
+        <label>Job Title
+        	<select name="jobtitle" required>
+        		<option value="software_engineer">Software Engineer</option>
+        		<option value="qa_engineer">QA Engineer</option>
+        		<option value="product_manager">Product Manager</option>
+        </label>
+        <input type="submit">
+    </form>
+
+    
+

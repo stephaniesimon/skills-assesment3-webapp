@@ -1,0 +1,17 @@
+form {
+	background-color: #FFD760;
+
+}
+#lastname{
+	font-weight: bold;
+}
+
+input[type=submit] {
+	background-color: #FFD760;
+}
+
+p {
+	border: solid;
+	padding: 10px;
+}
+
